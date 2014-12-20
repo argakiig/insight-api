@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = "insight-api"
+  s.name = "insight"
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.date = "2014-12-20"
   s.description = "Lightweight client for Insight API"
   s.email = ["argakiig@gmail.com"]
-  s.files = [".gitignore", "Gemfile", "LICENSE.txt", "README.md", "Rakefile", "Insight.gemspec", "insight.rb", "lib/insight/address.rb", "lib/insight/block.rb", "lib/insight/request.rb", "lib/insight/rpc.rb", "lib/insight/transaction.rb", "lib/insight/version.rb"]
+  s.files = [".gitignore", "Gemfile", "LICENSE.txt", "README.md", "Rakefile", "Insight.gemspec", "lib/insight.rb", "lib/insight/address.rb", "lib/insight/block.rb", "lib/insight/request.rb", "lib/insight/rpc.rb", "lib/insight/transaction.rb", "lib/insight/version.rb"]
   s.homepage = "http://www.argakiig.us"
   s.licenses = ["MIT"]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0.0")
